@@ -3,8 +3,8 @@
 
     <record id="base.user_root" model="res.users">
         <field name="parent_id" ref="base.main_partner"/>
-        <field name="company_ids" eval="[(4, ref('base.main_company')), (4, ref('base_data.second_company'))]"/>
-        <field name="image_1920" type="base64" file="base_data/static/img/people_man_user_0.jpg"/>
+        <field name="company_ids" eval="[(4, ref('base.main_company')), (4, ref('base_tools.second_company'))]"/>
+        <field name="image_1920" type="base64" file="base_tools/static/img/people_man_user_0.jpg"/>
         <field name="function">Über Boss</field>
         <field name="phone">+32 987 65 43 21</field>
         <field name="mobile">+32 987 65 43 21</field>
@@ -15,7 +15,7 @@
 
     <record id="base.user_admin" model="res.users">
         <field name="parent_id" eval="ref('base.main_partner')"/>
-        <field name="image_1920" type="base64" file="base_data/static/img/people_man_user_0.jpg"/>
+        <field name="image_1920" type="base64" file="base_tools/static/img/people_man_user_0.jpg"/>
         <field name="function">Über Boss</field>
         <field name="phone">+32 987 65 43 21</field>
         <field name="mobile">+32 987 65 43 21</field>
