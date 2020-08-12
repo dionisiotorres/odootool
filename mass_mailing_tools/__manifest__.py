@@ -9,7 +9,7 @@
     'description': """
     """,
     'depends': [
-        'mail_data',
+        'mail_tools',
         'mass_mailing',
     ],
     'data': [
