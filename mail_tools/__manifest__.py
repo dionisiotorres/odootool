@@ -9,7 +9,7 @@
     'description': """
     """,
     'depends': [
-        'base_data',
+        'base_tools',
         'fetchmail',
         'mail'
     ],
